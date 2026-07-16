@@ -1,15 +1,24 @@
 {
   "name": "transport-system",
   "version": "1.0.0",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
+  "private": true,
+  "description": "Public Transportation Platform based on Microservice Architecture",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "echo \"No service selected\"",
+    "build": "echo \"Build all services\"",
+    "test": "echo \"No tests yet\""
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "keywords": [
+    "microservice",
+    "nodejs",
+    "typescript",
+    "transport",
+    "grpc"
+  ],
+  "author": "Eren Aras",
+  "license": "MIT"
 }
