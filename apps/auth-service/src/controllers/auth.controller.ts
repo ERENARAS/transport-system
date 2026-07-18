@@ -4,7 +4,7 @@ export class AuthController {
   async register(req: Request, res: Response) {
     return res.status(201).json({
       success: true,
-      message: "Register endpoint is ready",
+      message: "Register endpoint is ready to be implemented.",
     });
   }
 }
